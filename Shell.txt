@@ -1,0 +1,37 @@
+sort -n -k 1 ./test
+2   simran 420
+12  preeti 300
+18  priya 400
+23  rohini 439
+67  neetu 599
+78  manav 450
+89  nyati 259
+
+tail -3 ./test | sort -k 2
+89  nyati 259
+12  preeti 300
+18  priya 400
+
+echo "1gururaj@abc.in" | grep -E "^[a-z1-9]{4,10}@[a-z]{2,10}[.][a-z]{2,3}$"
+
+
+
+01. mkdir dir_name
+02. rmdir dir_name
+03. rm -r dir_name
+04. touch file_name
+05. vi file_name
+06. rm file_name
+07. :q quit
+08. :wq write and quit
+09. :q! quit w/o writing
+10. cat ./file_name display file content
+11. tac ./file_name display in descending format
+12. cd .. back dir
+13. cp from_file_path to_file_name = copy file
+14. u = undo
+15. r = redo
+16. yy = copy
+17. p = paste
+18. dd = delete
+19.
